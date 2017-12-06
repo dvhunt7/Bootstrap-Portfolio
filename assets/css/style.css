@@ -1,7 +1,88 @@
+body {
+
+	min-height: 100%;
+	background-image: url("../images/ep_naturalblack.png");
+	position: relative;
+}
+
 .col-lg-7 {
 	text-align: center;
 }
 
 .col-lg-7 img {
 	float: left;
+}
+
+#connect {
+	text-align: center;
+	background-color: gray;
+	border: solid 2px;
+	border-color: red;
+	float: right;
+	width: 200px;
+	margin-left: 100px;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#maincontent {
+	text-align: center;
+	float: left;
+	background-color: gray;
+	color: black;
+	border: solid 2px;
+	border-color: red;
+	padding: 20px;
+
+}
+
+
+
+#maincontent p {
+	border-top: solid;
+	padding: 15px 0 0 0;
+}
+
+#maincontent img {
+	float: left;
+	padding: 50px 20px 20px 20px;
+}
+
+input[type=text], select, textarea {
+    padding: 12px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical; 
+ }
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    background-color: gray;
+    padding: 20px;
+}
+
+
+#footer {
+	position: relative;
+	font-size: 18px;
+	width: 960px;
+	text-align: center;
+	margin-top: 15px;
+	background-color:#9a0002;
+	bottom: 0; 
+	height: 60px;
 }
